@@ -103,7 +103,7 @@ public class LaunchGeneric1 {
 					System.out.println(em);
 				}
 	
-	       //Telusko<Integer> t=new Telusko<>();
+//	       Employee<Integer> t=new Employee<>();
 			ArrayList<Integer> i=new ArrayList<>();
 			
 			ArrayList<Integer> i2=new ArrayList<Integer>();
