@@ -1,5 +1,6 @@
 package genericsExamples;
 
+import java.awt.List;
 import java.util.ArrayList;
 
 class Human {
@@ -23,14 +24,14 @@ public class LaunchGenerics3 {
 
 	public static void main(String[] args) {
 	
-		Object obj = new Object();
-		String st = new String();
-		obj=st;
+//		Object obj = new Object();
+//		String st = new String();
+//		obj=st;
 //		st=obj; //error or to downcast
 		
-		Human h = new Human();
-		Student stu = new Student();
-		h=stu;
+//		Human h = new Human();
+//		Student stu = new Student();
+//		h=stu;
 //		stu=p; // C.E  or downcasting
 		
 		
@@ -54,17 +55,14 @@ public class LaunchGenerics3 {
 		
 		// lowerbound
 		// collection work with  Human or parent of Human  (superclass of Human)
-		ArrayList<? super Human> humanList1 = new ArrayList<>();
-		ArrayList<Student> stuList1 = new ArrayList<>();
-		ArrayList<Employees> empList1 = new ArrayList<>();
-		ArrayList<Object> objList1 = new ArrayList<>();
+//		ArrayList<? super Human> humanList1 = new ArrayList<>();
+//		ArrayList<Student> stuList1 = new ArrayList<>();
+//		ArrayList<Employees> empList1 = new ArrayList<>();
+//		ArrayList<Object> objList1 = new ArrayList<>();
 //		humanList1=stuList1; // C.E
 //		humanList1 = empList1; // C.E
-		humanList1 = objList1;
+//		humanList1 = objList1;
 		
-		
-		
-
 	}
 
 }
