@@ -28,11 +28,11 @@ class TestCricket implements Comparable<TestCricket> {
 	}
 
 	
-	// Comparable's method
+	// Comparable's Method
 	@Override
 	public int compareTo(TestCricket o) {
 				
-		if(this.score > o.score)
+		if(this.score>o.score)
 			return 1;
 		else
 			return -1;
@@ -68,7 +68,7 @@ public class LaunchComplexSorting2 {
 //		Collections.sort(arTc,comp2);
 		
 	
-	// After Comparable 
+	// After Comprable
 		System.out.println(arTc);
 		Collections.sort(arTc);
 		System.out.println(arTc);
