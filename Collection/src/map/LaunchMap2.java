@@ -30,7 +30,7 @@ public class LaunchMap2 {
 		String data = hm.get(3);
 		System.out.println(data);
 		
-		System.out.println("************************");
+		System.out.println("***********get value*************");
 		
 		Collection<String> values = hm.values();
 		
@@ -39,7 +39,7 @@ public class LaunchMap2 {
 			System.out.println(itr.next());
 		}
 		
-		System.out.println("***********************");
+		System.out.println("***********get only key************");
 		Set<Integer> set = hm.keySet();
 		
 		 Iterator<Integer> itr2 = set.iterator();
@@ -47,7 +47,7 @@ public class LaunchMap2 {
 			 System.out.println(itr2.next());
 		 }
 		 
-		 System.out.println("***********************");
+		 System.out.println("**********get both key and value*************");
 //		 Set<Entry<Integer, String>> set2 = hm.entrySet();
 //		 Iterator<Entry<Integer, String>> itr3 = set2.iterator();
 		 
